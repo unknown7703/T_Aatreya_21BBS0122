@@ -17,19 +17,18 @@
   display: flex;
 }
 
-.cell {
-  width: 60px;
-  height: 60px;
+.movelist {
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  font-size: 18px;
-  cursor: pointer;
+  flex-wrap: nowrap; 
+  gap: 10px; 
 }
 
-.cell:hover {
-  background-color: #f0f0f0;
+.movelist > div {
+  padding: 5px 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
 }
 
 @media (prefers-reduced-motion: no-preference) {
