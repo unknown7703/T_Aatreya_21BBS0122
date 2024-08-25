@@ -1,0 +1,17 @@
+/* Board.css */
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 50px); /* 5 columns */
+    grid-template-rows: repeat(5, 50px); /* 5 rows */
+    gap: 5px; /* Gap between grid items */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 12px;
+    font-weight: bold;
+}
